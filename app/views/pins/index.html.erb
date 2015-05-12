@@ -11,7 +11,7 @@
   </thead>
 
   <tbody>
-    <% @pins.each do |pin| %>
+    <% @pins.to_a.each do |pin| %>
       <tr>
         <td><%= pin.description %></td>
         <td><%= link_to 'Show', pin %></td>
