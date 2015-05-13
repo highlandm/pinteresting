@@ -1,8 +1,7 @@
 class PinsController < ApplicationController
 before_action :authenticate_user!
-end
   def index
-    @pins = Pin.all
+    @pins = Pin.all 
   end
 
   def show
@@ -22,6 +21,7 @@ end
     else
       render action: 'new'
     end
+  end
 
 
   def update
