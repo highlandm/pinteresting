@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 3.4.0.rc2'
+gem 'paperclip', '~> 4.2'
 group :development, :test do
 		gem 'sqlite3'
 	end
